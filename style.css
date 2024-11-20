@@ -1,17 +1,60 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #fff;
-    color: #333;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
 }
 
-header {
-    background-color: #007bff;
-    color: #fff;
-    padding: 20px;
+.header {
+  text-align: center;
+  padding: 20px;
+  background: #1b2a49;
+  color: white;
 }
 
-.hero {
-    background-color: #f0f0f0;
-    padding: 50px;
-    text-align: center;
+.header .logo {
+  width: 100px;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  background: #333;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar ul li {
+  margin: 0 15px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+
+.navbar ul li a:hover {
+  text-decoration: underline;
+}
+
+.about, .courses, .contact {
+  padding: 20px;
+  margin: 20px;
+}
+
+.about h2, .courses h2, .contact h2 {
+  color: #1b2a49;
+}
+
+.course {
+  margin-bottom: 20px;
+}
+
+.footer {
+  text-align: center;
+  background: #333;
+  color: white;
+  padding: 10px;
 }
